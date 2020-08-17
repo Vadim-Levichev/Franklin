@@ -1,0 +1,612 @@
+@font-face {
+	font-family: 'Circe';
+	src: url('Circe-Regular.eot');
+	src: local('Circe'), local('Circe-Regular'),
+		url('Circe-Regular.eot?#iefix') format('embedded-opentype'),
+		url('Circe-Regular.woff') format('woff'),
+		url('Circe-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('Circe-ExtraLight.eot');
+	src: local('Circe ExtraLight'), local('Circe-ExtraLight'),
+		url('Circe-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('Circe-ExtraLight.woff') format('woff'),
+		url('Circe-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('Circe-Thin.eot');
+	src: local('Circe Thin'), local('Circe-Thin'),
+		url('Circe-Thin.eot?#iefix') format('embedded-opentype'),
+		url('Circe-Thin.woff') format('woff'),
+		url('Circe-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('Circe-Light.eot');
+	src: local('Circe Light'), local('Circe-Light'),
+		url('Circe-Light.eot?#iefix') format('embedded-opentype'),
+		url('Circe-Light.woff') format('woff'),
+		url('Circe-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('Circe-Bold.eot');
+	src: local('Circe Bold'), local('Circe-Bold'),
+		url('Circe-Bold.eot?#iefix') format('embedded-opentype'),
+		url('Circe-Bold.woff') format('woff'),
+		url('Circe-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('Circe-ExtraBold.eot');
+	src: local('Circe ExtraBold'), local('Circe-ExtraBold'),
+		url('Circe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('Circe-ExtraBold.woff') format('woff'),
+		url('Circe-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Circe';
+}
+nav{
+	display: flex;
+	justify-content: flex-end;
+}
+p{
+	margin: 0;
+}
+footer{
+	margin-top: 40px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	background-color: #ffcf00;
+}
+.header-container{
+	display: flex;
+	align-items: center;
+	margin-top: 24px;
+}
+.logo{
+	flex: 1;
+	margin-left: 17.43%;
+}
+.menu{
+	flex: 1;
+	margin-right: 17.36%;
+}
+.menu a{
+	margin-right: 5%;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+  	font-weight: 800;
+    letter-spacing: 0.18px;
+  	color: #000000;
+}
+.menu a:last-child{
+	margin-right: 0px;
+}
+.franklin-container{
+	display: flex;
+	align-items: flex-end;
+	margin-top: 149px;
+}
+.franklin-container-image{
+	flex: 2;
+	display: flex;
+	justify-content: flex-end;
+}
+.franklin-container-content{
+	flex: 3;
+	margin-left: 5%;
+}
+.franklin-container-text p{
+  	font-size: 32px;
+  	font-weight: 200;
+  	font-stretch: normal;
+  	font-style: normal;
+  	line-height: 1.25;
+  	letter-spacing: 0.2px;
+  	color: #000000;
+  	margin-bottom: 40px;
+}
+.franklin-container-button button{
+	width: 288px;
+  	height: 56px;
+  	background-color: #000000;
+  	font-size: 16px;
+  	font-weight: bold;
+    letter-spacing: -0.2px;
+  	text-align: center;
+  	color: #ffcf00;
+  	cursor: pointer;
+}
+.franklin-container-button button:hover{
+	background-color: white;
+}
+.why-us{
+	margin-top: 251px;
+}
+.why-us-heading{
+	display: flex;
+	justify-content: center;
+}
+.why-us-heading span{
+	font-size: 16px;
+  	font-weight: 800;
+  	letter-spacing: 0.2px;
+    color: #000000;
+    border-bottom: 3px solid #ffcf00;
+    padding-bottom: 1px;
+}
+.why-us-content{
+	margin: 64px 5% 0 5%;	
+	padding-top: 150px;
+	padding-bottom: 170px;
+	display: flex;
+	justify-content: center;
+	background-color: #ffcf00;
+}
+.why-us-content-2{
+	margin: 0 8%;
+}
+.why-us-content-price span{
+  	font-size: 64px;
+  	font-weight: bold;
+ 	letter-spacing: -1.2px;
+  	color: #000000;
+}
+.why-us-content-text span{
+  	font-size: 24px;
+    letter-spacing: -0.05px;
+ 	color: #000000;
+}
+.how-we-earn-trust{
+	margin-top: 120px;
+}
+.how-we-earn-trust-heading{
+	display: flex;
+	justify-content: center;
+}
+.how-we-earn-trust-heading span{
+	font-size: 16px;
+  	font-weight: 800;
+  	letter-spacing: 0.2px;
+    color: #000000;
+    border-bottom: 3px solid #ffcf00;
+    padding-bottom: 1px;
+}
+.how-we-earn-trust-content{
+	display: flex;
+	justify-content: center;
+	margin-top: 72px;
+	margin-bottom: 120px;
+}
+.how-we-earn-trust-content-2{
+	margin: 0 3%;
+}
+.how-we-earn-trust-content-image{
+	width: 56px;
+	height: 56px;
+	border: 2px solid #ffcf00;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #ffcf00;
+}
+.how-we-earn-trust-content-heading{
+	margin: 10px 0 16px 0;
+}
+.how-we-earn-trust-content-heading span{
+	font-size: 32px;
+  	font-weight: 200;
+  	font-stretch: normal;
+  	font-style: normal;
+  	line-height: 1.25;
+  	letter-spacing: -0.6px;
+  	color: #000000;
+}
+.how-we-earn-trust-content-text span{
+	font-size: 24px;
+  	font-weight: bold;
+  	font-stretch: normal;
+  	font-style: normal;
+  	line-height: 1.33;
+  	letter-spacing: -0.05px;
+  	color: #000000;
+}
+.trading-volumes-report{
+	background-color: #eeedeb;
+	margin: 0 5%;
+}
+.trading-volumes-report-heading{
+	display: flex;
+	justify-content: center;
+	padding-top: 80px;
+}
+.trading-volumes-report-heading span{
+	font-size: 16px;
+  	font-weight: 800;
+  	letter-spacing: 0.2px;
+    color: #000000;
+    border-bottom: 3px solid #ffcf00;
+    padding-bottom: 1px;
+}
+.trading-volumes-report-content{
+	display: flex;
+	flex-direction: column;
+	margin-top: 71px;
+	margin-left: 18%;
+}
+.trading-volumes-report-container{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 28%;
+}
+.trading-volumes-report-content-heading{
+	margin-top: 71px;
+	margin-bottom: 64px;
+}
+.trading-volumes-report-content-heading span{
+	font-size: 32px;
+  	font-weight: 200;
+    line-height: 1.25;
+  	letter-spacing: -0.6px;
+  	color: #000000;
+}
+.trading-volumes-report-container-bold{
+  	font-size: 32px;
+ 	font-weight: bold;
+  	letter-spacing: -1.2px;
+ 	color: #000000;
+ 	margin-bottom: 16px;
+}
+.trading-volumes-report-container p{
+	font-weight: bold;
+  	font-size: 24px;
+  	letter-spacing: -0.05px;
+  	color: #000000;
+}
+.trading-volumes-report-container-last{
+	padding-bottom: 120px;
+}
+.border-bottom{
+	border-bottom: 5px dotted #000000;
+}
+.footer-heading{
+	display: flex;
+	justify-content: center;
+	padding-top: 80px;
+}
+.footer-heading span{
+	font-size: 16px;
+ 	font-weight: 800;
+  	letter-spacing: 0.2px;
+    color: #000000;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 1px;
+}
+.footer-form{
+	display: flex;
+	justify-content: center;
+	margin-top: 64px;
+	margin-bottom: 20px;
+}
+.left-form{
+	margin-right: 2%;
+}
+.left-form input{
+	padding: 22px 0 18px 20px;
+	width: 288px;
+}
+.right-form input{
+	padding: 22px 0 18px 20px;
+	width: 288px;
+}
+.footer-button{
+	padding-bottom: 120px;
+	display: flex;
+    justify-content: center;
+}
+.footer-button button{
+	width: 288px;
+  	height: 56px;
+  	background-color: #000000;
+  	font-size: 16px;
+  	font-weight: bold;
+    letter-spacing: -0.2px;
+  	text-align: center;
+  	color: #ffcf00;
+  	cursor: pointer;
+ }
+.footer-button button:hover{
+	background-color: white;
+}
+
+
+@media(max-width: 1200px){
+	.menu a{
+		font-size: 13px;
+	}
+	.why-us{
+    margin-top: 100px;
+}
+	.trading-volumes-report-content{
+		margin-top: 0px;
+	}
+}
+
+@media(max-width: 992px){
+	.menu{
+		margin-right: 11.36%;
+	}
+	.why-us-content-1{
+		margin-left: 3%;
+	}
+	.how-we-earn-trust-content-1{
+		margin-left: 3%;
+	}
+}
+@media(max-width: 768px){
+	.trading-volumes-report-content{
+		margin-left: 10%;
+	}
+}
+@media(max-width: 480px){
+	.header-container{
+		display: flex;
+		margin: 0;
+	}
+	.logo{
+		flex: 1;
+		margin: 0;
+	}
+	.menu{
+		flex: 1;
+		margin: 0;
+		margin-right: 5%;
+	}
+	.menu nav{
+		flex-direction: column;
+    	margin-top: 65px;
+	}
+	.menu a{
+		display: flex;
+		justify-content: flex-end;
+		margin: 0;
+		font-size: 13px;
+	}
+	.franklin-container{
+		flex-direction: column;
+		margin-top: 40px;
+	}
+	.franklin-container-image{
+		margin: auto;
+	}
+	.franklin-container-content{
+		margin-top: 24px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.why-us{
+		margin-top: 80px;
+	}
+	.why-us-content{
+		flex-direction: column;
+		padding-top: 48px;
+		padding-bottom: 56px;
+		padding-left: 10px;
+	}
+	.why-us-content-1{
+		margin-left: 0;
+	}
+	.why-us-content-2{
+		margin: 0;
+	}
+	.why-us-content-price span{
+		font-size: 55px;
+	}
+	.how-we-earn-trust{
+		margin-top: 64px;
+	}
+	.how-we-earn-trust-content{
+		flex-direction: column;
+	}
+	.how-we-earn-trust-content-2{
+		margin-top: 48px;
+	}
+	.how-we-earn-trust-content-3{
+		margin-top: 48px;
+		margin: 48px 0 0 3%;
+	}
+	.how-we-earn-trust-content-image{
+		margin-left: 6px;
+	}
+	.how-we-earn-trust-content-heading{
+		margin-left: 16px;
+		margin-top: 20px;
+	}
+	.how-we-earn-trust-content-text{
+		margin-left: 16px;
+	}
+	.trading-volumes-report{
+		margin-top: 80px;
+	}
+	.trading-volumes-report-content{
+		margin: 0;
+		padding: 0 20px;
+	}
+	.trading-volumes-report-heading{
+		padding-top: 48px;
+	}
+	.trading-volumes-report-container{
+		flex-direction: column;
+	}
+	.trading-volumes-report-container p{
+		padding: 0;
+		margin: 0;
+	}
+	.price-container{
+		margin-bottom: 40px;
+	}
+	.footer-form{
+		flex-direction: column;
+	}
+	.left-form{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+	.right-form{
+		display: flex;
+		justify-content: center;
+	}
+	.left-form input{
+		width: 248px;
+	}
+	.right-form input{
+		width: 248px;
+	}
+	.footer-button button{
+		width: 198px;
+	}
+}
+@media(max-width: 320px){
+	.header-container{
+		display: flex;
+		margin: 0;
+	}
+	.logo{
+		flex: 1;
+		margin: 0;
+	}
+	.menu{
+		flex: 1;
+		margin: 0;
+		margin-right: 5%;
+	}
+	.menu nav{
+		flex-direction: column;
+    	margin-top: 65px;
+	}
+	.menu a{
+		display: flex;
+		justify-content: flex-end;
+		margin: 0;
+		font-size: 13px;
+	}
+	.franklin-container{
+		flex-direction: column;
+		margin-top: 40px;
+	}
+	.franklin-container-image{
+		margin: auto;
+	}
+	.franklin-container-content{
+		margin-top: 24px;
+	}
+	.why-us{
+		margin-top: 80px;
+	}
+	.why-us-content{
+		flex-direction: column;
+		padding-top: 48px;
+		padding-bottom: 56px;
+		padding-left: 10px;
+	}
+	.why-us-content-2{
+		margin: 0;
+	}
+	.why-us-content-price span{
+		font-size: 55px;
+	}
+	.how-we-earn-trust{
+		margin-top: 64px;
+	}
+	.how-we-earn-trust-content{
+		flex-direction: column;
+	}
+	.how-we-earn-trust-content-2{
+		margin-top: 48px;
+	}
+	.how-we-earn-trust-content-3{
+		margin-top: 48px;
+	}
+	.how-we-earn-trust-content-image{
+		margin-left: 6px;
+	}
+	.how-we-earn-trust-content-heading{
+		margin-left: 16px;
+		margin-top: 20px;
+	}
+	.how-we-earn-trust-content-text{
+		margin-left: 16px;
+	}
+	.trading-volumes-report{
+		margin-top: 80px;
+	}
+	.trading-volumes-report-content{
+		margin: 0;
+		padding: 0 20px;
+	}
+	.trading-volumes-report-heading{
+		padding-top: 48px;
+	}
+	.trading-volumes-report-container{
+		flex-direction: column;
+	}
+	.trading-volumes-report-container p{
+		padding: 0;
+		margin: 0;
+	}
+	.price-container{
+		margin-bottom: 40px;
+	}
+	.footer-form{
+		flex-direction: column;
+	}
+	.left-form{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 10px;
+	}
+	.right-form{
+		display: flex;
+		justify-content: center;
+	}
+	.left-form input{
+		width: 248px;
+	}
+	.right-form input{
+		width: 248px;
+	}
+	.footer-button button{
+		width: 198px;
+	}
+}
